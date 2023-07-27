@@ -35,6 +35,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cabal init -n 
         cabal update 
         cabal build --enable-tests --enable-benchmarks --force-reinstalls
     - name: Build
