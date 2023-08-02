@@ -24,3 +24,11 @@ letterStrings = ['h','i'] ++ " " ++ ['t','h','e','r','e']
 
 -- Append a letter before a string with a ':'
 appendLetter = 'A':" Small cat"
+
+-- Texas range
+-- Creating a new list starting from 3 to 68
+myListSecond = [3..68]
+
+
+-- Letter range
+letterRange = ['a'..'z']
